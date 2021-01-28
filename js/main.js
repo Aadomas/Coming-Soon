@@ -4,4 +4,3 @@ import { renderSocials } from './components/renderSocials.js';
 
 clock('.clock', '01-04 14:00:00');
 renderSocials('footer > .socials', socialsData);
-© 2021 GitHub, Inc.
