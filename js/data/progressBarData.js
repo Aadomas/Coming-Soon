@@ -5,11 +5,11 @@ const progressBarData = [
     },
     {
         label:"Web Design",
-        value:85
+        value:86
     },
     {
         label:"Web Development",
-        value:85
+        value:50
     },
 ]
 
