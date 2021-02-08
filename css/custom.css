@@ -68,11 +68,25 @@ main .block-description {
     font-size: 18px;
 }
 main .block-description > a {
-    color: #ea1e63;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 main .block-description > a:hover {
     text-decoration: underline;
+}
+
+.right-column .form button {
+    float: right;
+}
+
+@media (min-width: 1100px) {
+    .form > input {
+        width: calc(50% - 10px);
+        float: left;
+    }
+    .form > input:first-of-type {
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -151,6 +165,7 @@ footer > .short-row > p {
     display: inline-block;
     width: 100%;
 }
+
 
 @media (max-width: 700px) {
     .bottom-texts {
