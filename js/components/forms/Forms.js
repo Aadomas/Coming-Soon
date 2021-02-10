@@ -23,7 +23,7 @@ class Forms {
             
             const submit = form.querySelector(".btn");
             
-            submit.addEventListener("click", (event) => {
+            submit.addEventListener("click", event => {
                 event.preventDefault();
                 
                 for (const input of allInputs) {
