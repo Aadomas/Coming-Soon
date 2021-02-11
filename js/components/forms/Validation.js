@@ -1,5 +1,5 @@
 class Validation {
-    
+
     static isValidName(name) {
         if (!Validation.isNonEmptyText(name)) {
             return "Vardas neturi buti tuscias";
@@ -50,8 +50,8 @@ class Validation {
     }
     static isNonEmptyText(text) {
         if (typeof text !== "string" ||
-        text === "") {
-        return false;
+            text === "") {
+            return false;
         }
         return true;
     }
@@ -78,7 +78,7 @@ class Validation {
         const uppercase = text.toUpperCase();
         const lowercase = text.toLowerCase();
         const size = text.length;
-        for (let i =0; i < size; i++) {
+        for (let i = 0; i < size; i++) {
             if (uppercase[i] === lowercase[i]) {
                 return false;
             }
